@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandaspublisher"
+version = "0.1.0"
+authors = [
+    {name = "Jason Flittner", email = "jason.flittner@gmail.com"},
+]
+description = "A Python package for generating customizable HTML and PDF reports from Pandas DataFrames and Jinja2 templates"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+dependencies = [
+    "pandas",
+    "jinja2",
+    "weasyprint"
+]
