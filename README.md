@@ -8,7 +8,13 @@ Pandas Publisher allows you to generate HTML and PDF reports using Jinja2 templa
 - Jinja2
 - WeasyPrint
 
-To install run the following after cloning this repo:
+To install the latest release run:
+
+```bash
+pip install pandaspublisher
+```
+
+To install from source run the following after cloning this repo:
 
 ```bash
 pip install -e .
