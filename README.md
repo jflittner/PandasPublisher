@@ -34,7 +34,7 @@ df2 = pd.DataFrame({'C': [5, 6], 'D': [7, 8]})
 dataframes = {'dataframe1': df1, 'dataframe2': df2}
 
 # Use the full path to the template file
-template_path = "/Users/jasonflittner/code/PandasPublisher/examples/templates/modern_template.html"
+template_path = "/Users/jasonflittner/code/PandasPublisher/examples/templates/sample_template.html"
 output_file = 'output.html'
 output_format = 'html'  # The desired output format for the report, either 'html', 'pdf', or 'html_string'.
 context = {
