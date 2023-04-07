@@ -1,6 +1,6 @@
 # Pandas Publisher
 
-Pandas Publisher allows you to generate reports using Jinja2 templates and Pandas dataframes. The generated reports can be saved as HTML, PDF, or returned as an HTML string.
+Pandas Publisher allows you to generate HTML and PDF reports using Jinja2 templates and Pandas dataframes. The generated reports can be saved as HTML, PDF, or returned as an HTML string.
 
 ## Dependencies
 
