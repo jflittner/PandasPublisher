@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pandaspublisher"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     {name = "Jason Flittner", email = "jason.flittner@gmail.com"},
 ]
@@ -17,3 +17,7 @@ dependencies = [
     "jinja2",
     "weasyprint"
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/jflittner/PandasPublisher"
+"Bug Tracker" = "https://github.com/jflittner/PandasPublisher/issues"
