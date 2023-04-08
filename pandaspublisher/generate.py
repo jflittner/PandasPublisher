@@ -20,7 +20,7 @@ def report(template_path, dataframes, output_format, output_filename, context=No
     Generates a report using the specified Jinja2 template and Pandas dataframes.
     
     Args:
-        template_path (str): The full path of the Jinja2 template file.
+        template_path (str): The full path of the HTML + Jinja2 template file.
         dataframes (dict): A dictionary containing Pandas dataframes as values.
         output_format (str): The desired output format for the report, either 'html', 'pdf', or 'html_string'.
         output_filename (str): The output file name for the generated report (only used when saving to 'html' or 'pdf').
